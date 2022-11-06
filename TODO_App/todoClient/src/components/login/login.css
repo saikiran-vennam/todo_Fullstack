@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&family=Titillium+Web:wght@400;600&display=swap');
+.login{
+    background-color: rgb(86, 233, 122);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formcard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 0 30px 30px 30px;
+    margin-top: 20px;
+    border: 1px solid rgb(224, 221, 221);
+    background-color: #ffff;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    padding: 2%;
+}
+
+label {
+    font-size: medium;
+    font-size: 25px;
+}
+
+input {
+    margin-bottom: 30px;
+    width: 380px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1.5px solid rgb(228, 225, 225);
+    font-size: 15px;
+    padding-left: 12px;
+    color: rgb(3, 93, 109);
+    Fill: Solid #FFFFFF
+}
+.login-btn {
+    margin-top: 15px;
+    margin-left: 0px;
+    border: none;
+    background-color: #4cb6af;
+    border-radius: 5px;
+    width: 380px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: rgb(7, 223, 79);
+    color: black;
+    border: 1px solid gray;
+}
+
+
+
+.signup {
+    text-align: center;
+    margin-top: 10px;
+    color: #4C57B6;
+    font-weight: 500;
+}
+
+.signup a{
+    text-decoration: none;
+    color: #4C57B6;
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
+
+.logintext {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #8d8b8b;
+}
+
+h1 {
+    text-align: center;
+    color: #e82424;
+    font-weight: 500;
+    font-family: 'Open Sans';
+    margin-bottom: 20px;
+    
+}
+
+::placeholder {
+    color: rgb(196, 194, 194);
+    opacity: 1; /* Firefox */
+  }
+
+.WholeLogin {
+    background-color: rgb(209, 241, 242);
+    height: 800px;
+}
+
+.signrep {
+    margin-top:-5%;
+    text-align: center;
+}
+
+.signrep-register{
+    text-align: center;
+}
+.Already {
+    color: black;
+}
+.eye-icon{
+    position: relative;
+    left:-40px;
+    color:#8d8b8b
+}
